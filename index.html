@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Nexus | Premium Digital Art Marketplace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <i class="fas fa-cube"></i>
+                    NFT<span>Nexus</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#marketplace">Marketplace</a></li>
+                    <li><a href="#calculator">Calculator</a></li>
+                    <li><a href="#learn">Learn</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <div class="nav-icon search-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="nav-icon user-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="nav-icon cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge">3</span>
+                    </div>
+                    <div class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Discover Rare Digital Art</h1>
+                    <p>Explore, collect, and sell extraordinary NFTs from the world's top digital artists on the most
+                        secure blockchain marketplace.</p>
+                    <div class="hero-btns">
+                        <a href="#marketplace" class="btn btn-lg">Explore Marketplace <i
+                                class="fas fa-arrow-right"></i></a>
+                        <a href="#learn" class="btn btn-outline btn-lg">Create NFT</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="—Pngtree—urban apes cartoon_5504260.png"
+                        alt="NFT Art">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crypto Prices Section -->
+    <section class="crypto-prices">
+        <div class="container">
+            <div class="prices-container">
+                <div class="price-card">
+                    <div class="crypto-icon">
+                        <i class="fab fa-bitcoin"></i>
+                    </div>
+                    <div class="crypto-name">Bitcoin</div>
+                    <div class="crypto-price" id="btc-price">$41,230.50</div>
+                    <div class="crypto-change positive">+2.34%</div>
+                </div>
+                <div class="price-card">
+                    <div class="crypto-icon">
+                        <i class="fab fa-ethereum"></i>
+                    </div>
+                    <div class="crypto-name">Ethereum</div>
+                    <div class="crypto-price" id="eth-price">$2,845.20</div>
+                    <div class="crypto-change positive">+1.78%</div>
+                </div>
+                <div class="price-card">
+                    <div class="crypto-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <div class="crypto-name">Tether</div>
+                    <div class="crypto-price" id="usdt-price">$1.00</div>
+                    <div class="crypto-change negative">-0.02%</div>
+                </div>
+                <div class="price-card">
+                    <div class="crypto-icon">
+                        <i class="fab fa-usd"></i>
+                    </div>
+                    <div class="crypto-name">USD Coin</div>
+                    <div class="crypto-price" id="usdc-price">$1.00</div>
+                    <div class="crypto-change">0.00%</div>
+                </div>
+                <div class="price-card">
+                    <div class="crypto-icon">
+                        <i class="fab fa-solidity"></i>
+                    </div>
+                    <div class="crypto-name">Solana</div>
+                    <div class="crypto-price" id="sol-price">$102.45</div>
+                    <div class="crypto-change positive">+5.67%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured NFTs Section -->
+    <section class="featured-nfts" id="marketplace">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured NFTs</h2>
+                <a href="#" class="btn btn-outline">View All Collections</a>
+            </div>
+            <div class="nft-grid">
+                <!-- NFT 1 -->
+                <div class="nft-card">
+                    <div class="nft-badge">Hot</div>
+                    <div class="nft-image">
+                        <img src="https://pic.pnnet.dev/256x256"
+                            alt="Digital Avatar">
+                        <div class="nft-actions">
+                            <div class="action-btn"><i class="far fa-heart"></i></div>
+                            <div class="action-btn"><i class="fas fa-shopping-cart"></i></div>
+                            <div class="action-btn"><i class="fas fa-share-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="nft-info">
+                        <span class="nft-category">Digital Art</span>
+                        <h3 class="nft-title">Cosmic Dreamer #1245</h3>
+                        <div class="nft-creator">
+                            <div class="creator-avatar">
+                                <img src="https://pic.pnnet.dev/256x256"
+                                    alt="Creator">
+                            </div>
+                            <span class="creator-name">@digitalartist</span>
+                        </div>
+                        <div class="nft-stats">
+                            <div class="nft-price">
+                                <span class="price-label">Current Bid</span>
+                                <span class="price-value">2.45 ETH</span>
+                            </div>
+                            <div class="nft-likes">
+                                <i class="far fa-heart"></i>
+                                <span>124</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NFT 2 -->
+                <div class="nft-card">
+                    <div class="nft-badge">New</div>
+                    <div class="nft-image">
+                        <img src="https://pic.pnnet.dev/256x256"
+                            alt="Abstract Art">
+                        <div class="nft-actions">
+                            <div class="action-btn"><i class="far fa-heart"></i></div>
+                            <div class="action-btn"><i class="fas fa-shopping-cart"></i></div>
+                            <div class="action-btn"><i class="fas fa-share-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="nft-info">
+                        <span class="nft-category">Abstract</span>
+                        <h3 class="nft-title">Neural Networks #0456</h3>
+                        <div class="nft-creator">
+                            <div class="creator-avatar">
+                                <img src="https://pic.pnnet.dev/256x256"
+                                    alt="Creator">
+                            </div>
+                            <span class="creator-name">@ai_artist</span>
+                        </div>
+                        <div class="nft-stats">
+                            <div class="nft-price">
+                                <span class="price-label">Current Bid</span>
+                                <span class="price-value">1.78 ETH</span>
+                            </div>
+                            <div class="nft-likes">
+                                <i class="far fa-heart"></i>
+                                <span>89</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NFT 3 -->
+                <div class="nft-card">
+                    <div class="nft-image">
+                        <img src="https://pic.pnnet.dev/256x256"
+                            alt="3D Art">
+                        <div class="nft-actions">
+                            <div class="action-btn"><i class="far fa-heart"></i></div>
+                            <div class="action-btn"><i class="fas fa-shopping-cart"></i></div>
+                            <div class="action-btn"><i class="fas fa-share-alt"></i></div>
+                        </div>
+                    </div>
+                    <div class="nft-info">
+                        <span class="nft-category">3D Art</span>
+                        <h3 class="nft-title">Cyberpunk City #7821</h3>
+                        <div class="nft-creator">
+                            <div class="creator-avatar">
+                                <img src="https://pic.pnnet.dev/256x256"
+                                    alt="Creator">
+                            </div>
+                            <span class="creator-name">@3d_visionary</span>
+                        </div>
+                        <div class="nft-stats">
+                            <div class="nft-price">
+                                <span class="price-label">Current Bid</span>
+                                <span class="price-value">3.25 ETH</span>
+                            </div>
+                            <div class="nft-likes">
+                                <i class="far fa-heart"></i>
+                                <span>156</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profit Calculator Section -->
+    <section class="profit-calculator" id="calculator">
+        <div class="container">
+            <h2>NFT Profit Calculator</h2>
+            <div class="calculator-container">
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="purchasePrice" class="form-label">Purchase Price (ETH)</label>
+                        <input type="number" id="purchasePrice" class="form-control" value="1.0" min="0" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label for="salePrice" class="form-label">Sale Price (ETH)</label>
+                        <input type="number" id="salePrice" class="form-control" value="2.5" min="0" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label for="gasFees" class="form-label">Gas Fees (ETH)</label>
+                        <input type="number" id="gasFees" class="form-control" value="0.05" min="0" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label for="platformFee" class="form-label">Platform Fee (%)</label>
+                        <input type="number" id="platformFee" class="form-control" value="2.5" min="0" step="0.1">
+                    </div>
+                </div>
+                <div class="calculator-result">
+                    <div class="result-title">Your Estimated Profit</div>
+                    <div class="result-value" id="profitResult">1.38 ETH</div>
+                    <div class="result-note">Based on current ETH price: $2,845.20</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educational Section -->
+    <section class="educational" id="learn">
+        <div class="container">
+            <h2>Learn About NFTs</h2>
+            <div class="educational-grid">
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 class="edu-title">What is Gas Fee?</h3>
+                    <p class="edu-description">Gas fees are payments made by users to compensate for the computing
+                        energy required to process and validate transactions on the blockchain.</p>
+                    <a href="#" class="btn btn-sm">Learn More</a>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3 class="edu-title">Setting Up a Wallet</h3>
+                    <p class="edu-description">A crypto wallet is your gateway to the NFT world. Learn how to set up a
+                        secure wallet to store your digital assets.</p>
+                    <a href="#" class="btn btn-sm">Learn More</a>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="edu-title">Staying Safe in Web3</h3>
+                    <p class="edu-description">Protect your assets with these essential security practices for
+                        navigating the decentralized web safely.</p>
+                    <a href="#" class="btn btn-sm">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What is an NFT?
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>NFT stands for Non-Fungible Token. It's a unique digital asset that represents ownership of a
+                            specific item or piece of content, stored on a blockchain. Unlike cryptocurrencies such as
+                            Bitcoin or Ethereum, NFTs are not interchangeable with one another.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How do I buy an NFT?
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>To buy an NFT, you'll need to: 1) Set up a crypto wallet like MetaMask, 2) Purchase
+                            cryptocurrency (usually ETH), 3) Connect your wallet to an NFT marketplace, 4) Browse
+                            collections and place bids or buy at listed prices.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What are gas fees and why are they so high?
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Gas fees are transaction fees paid to network validators. They can be high during periods of
+                            network congestion when many people are trying to process transactions simultaneously. Layer
+                            2 solutions and alternative blockchains are being developed to address this issue.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can I create my own NFT?
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! You can create (mint) your own NFT by uploading your digital artwork to a platform that
+                            supports NFT creation, connecting your wallet, and paying the required gas fees. Many
+                            platforms offer user-friendly interfaces for this process.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Are NFTs bad for the environment?
+                        <i class="fas fa-chevron-down faq-toggle"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The environmental impact depends on the blockchain used. Ethereum, which previously used
+                            energy-intensive proof-of-work, has transitioned to more efficient proof-of-stake. Many
+                            newer blockchains are designed with sustainability in mind from the start.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest from Our Blog</h2>
+                <a href="#" class="btn btn-outline">View All Posts</a>
+            </div>
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://pic.pnnet.dev/356x256"
+                            alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> June 15, 2023</span>
+                            <span><i class="far fa-comment"></i> 12 Comments</span>
+                        </div>
+                        <h3 class="blog-title">The Future of Digital Art: NFTs in 2023</h3>
+                        <p class="blog-excerpt">Explore how NFTs are transforming the art world and what trends are
+                            shaping the future of digital collectibles.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://pic.pnnet.dev/356x256"
+                            alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> May 28, 2023</span>
+                            <span><i class="far fa-comment"></i> 8 Comments</span>
+                        </div>
+                        <h3 class="blog-title">How to Spot Promising NFT Projects</h3>
+                        <p class="blog-excerpt">Learn the key factors to consider when evaluating NFT projects for
+                            investment potential and long-term value.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://pic.pnnet.dev/356x256"
+                            alt="Blog Post">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> April 12, 2023</span>
+                            <span><i class="far fa-comment"></i> 15 Comments</span>
+                        </div>
+                        <h3 class="blog-title">Understanding Royalties in the NFT Space</h3>
+                        <p class="blog-excerpt">A deep dive into how NFT royalties work and why they're revolutionizing
+                            how artists get paid for their work.</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-cube"></i>
+                        NFT<span>Nexus</span>
+                    </div>
+                    <p>The premier marketplace for digital art and collectibles. Discover, collect, and sell
+                        extraordinary NFTs on the most secure blockchain platform.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Marketplace</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> All NFTs</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Art</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Collectibles</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Photography</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Music</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Account</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Profile</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Favorites</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Watchlist</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> My Collections</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Settings</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest drops, artist spotlights, and marketplace updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your email address" required>
+                        <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 NFT Nexus. All rights reserved. | The future of digital ownership is here.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
